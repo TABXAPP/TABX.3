@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tab X App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="tabs">
+    <button class="tab active" onclick="showTab('tabX')">Tab X</button>
+    <button class="tab" onclick="showTab('tabY')">Tab Y</button>
+  </div>
+
+  <div id="tabX" class="tab-content show">
+    <h2>Welcome to Tab X</h2>
+    <p>This is Tab X. Here are some useful links:</p>
+    <ul>
+      <li><a href="https://example.com" target="_blank">Example Link 1</a></li>
+      <li><a href="https://openai.com" target="_blank">OpenAI</a></li>
+    </ul>
+  </div>
+
+  <div id="tabY" class="tab-content">
+    <h2>This is Tab Y</h2>
+    <p>Other content goes here.</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

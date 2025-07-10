@@ -1,0 +1,27 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+}
+.tabs {
+  display: flex;
+  margin-bottom: 10px;
+}
+.tab {
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  background: #eee;
+  margin-right: 5px;
+}
+.tab.active {
+  background: #ddd;
+  font-weight: bold;
+}
+.tab-content {
+  display: none;
+}
+.tab-content.show {
+  display: block;
+  border: 1px solid #ccc;
+  padding: 15px;
+}
