@@ -1,0 +1,4 @@
+firebase appdistribution:distribute build/app/outputs/bundle/release/app-release.aab \
+  --app <FIREBASE_APP_ID> \
+  --groups testers \
+  --release-notes "Initial TabX Test Build"
